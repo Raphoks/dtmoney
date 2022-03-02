@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {darken} from "polished";
 
 export const Container = styled.div`
   display: grid;
@@ -25,7 +26,7 @@ export const Container = styled.div`
       line-height: 3rem;
     }
     &:last-child{
-      background: var(--green);
+      background: ${darken(0.25, '#33CC95')};
     }
   }
 `;
