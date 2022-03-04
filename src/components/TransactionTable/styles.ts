@@ -37,7 +37,7 @@ export const Container = styled.div`
         }
       }
 
-      &.widthdraw{
+      &.withdraw{
         color: var(--red);
 
         &::before{
